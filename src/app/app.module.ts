@@ -7,6 +7,7 @@ import { FilmsComponent } from './components/films/films.component';
 import { TestsComponent } from './components/tests/tests.component';
 import { PlataformasComponent } from './plataformas/plataformas.component';
 import { PeliculasComponent } from './peliculas/peliculas.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,10 +16,11 @@ import { PeliculasComponent } from './peliculas/peliculas.component';
     FilmsComponent,
     TestsComponent,
     PlataformasComponent,
-    PeliculasComponent
+    PeliculasComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

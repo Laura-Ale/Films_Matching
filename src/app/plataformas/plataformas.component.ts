@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {  Router } from '@angular/router';
-import { PeliculasComponent } from '../peliculas/peliculas.component';
 
 @Component({
   selector: 'app-plataformas',
@@ -23,11 +21,6 @@ export class PlataformasComponent implements OnInit {
 
   public btnSelected():boolean{
     return true;
-  }
-
-  public btnListo(): void{
-    
-    console.log("redirigiendo...");
   }
 
   ngOnInit(): void {
