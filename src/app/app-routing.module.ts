@@ -11,7 +11,6 @@ const routes: Routes = [
   },
   {
     path:'filtros', component:FiltrosComponent
-    
   },
   {
     path: 'peliculas', component:PeliculasComponent
