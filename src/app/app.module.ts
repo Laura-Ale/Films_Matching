@@ -8,6 +8,7 @@ import { TestsComponent } from './components/tests/tests.component';
 import { PlataformasComponent } from './plataformas/plataformas.component';
 import { PeliculasComponent } from './peliculas/peliculas.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FiltrosComponent } from './filtros/filtros.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     TestsComponent,
     PlataformasComponent,
     PeliculasComponent,
+    FiltrosComponent,
   ],
   imports: [
     BrowserModule,
