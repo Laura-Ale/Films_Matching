@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FiltrosComponent implements OnInit {
 
-  constructor() { }
+  public boton: string;
+
+  constructor() { 
+    this.boton = "aplicar filtros";
+   }
 
   ngOnInit(): void {
   }

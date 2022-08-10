@@ -1,0 +1,17 @@
+.boton{
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    background-color: #299FA3;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: medium;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 #060e0e48, 0 6px 20px 0 #060e0e48;
+}
